@@ -1,11 +1,16 @@
 import './App.css';
-import { MyComponent } from './firstcomponent.js';
+import Frisstcompo from './components/fristclasscompo';
+import {Secondtcompo} from './components/fristclasscompo';
+import {Firstfunctionalcompo} from './components/firstfunctionalcompo';
+
 
 function App() {
   return (
     <div className="App">
       <h1>Hello Day-1</h1>
-      <MyComponent /> {/* This is where you include MyComponent */}
+      <Frisstcompo/>
+      <Secondtcompo/>
+      <Firstfunctionalcompo/>
     </div>
   );
 }
